@@ -1,18 +1,18 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
-import AboutUs from './components/AboutUs';
+// import AboutUs from './components/AboutUs';
 import Alerts from './components/Alerts';
 import { useState } from 'react';
 
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
-} from "react-router-dom";
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route,
+//   Link
+// } from "react-router-dom";
 
 
 function App() {
@@ -56,16 +56,17 @@ let showAlerts=(message,msgType)=>{
     // we are using this tag bcz in JSX we can only return a single tag that's why we are enclosing all the things under this one tag
      <>                           
 
-<Router>
+{/* <Router> */}
 
 <Navbar  title={"TextWare"}  mode={mode}  modeText={modeText} toggleMode={toggleMode} />    {/* This is an imported component from Navbar.js file  */}
 
 <Alerts alert={alert}  />
 
-{/* <TextForm  mode={mode}  /> */}
+<TextForm  mode={mode}  />
 
+{/* </> */}
 
-<Routes>
+{/* <Routes>
           <Route  exact path="/AboutUs" element={ <AboutUs/> }>
             </Route>
 
@@ -73,7 +74,7 @@ let showAlerts=(message,msgType)=>{
           </Route>
 </Routes>
 
-</Router>
+</Router> */}
 
 
 {/* <AboutUs/> */}
