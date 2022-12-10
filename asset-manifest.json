@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TextWare/static/css/main.073c9b0a.css",
+    "main.js": "/TextWare/static/js/main.883d7bb8.js",
+    "static/js/787.d3befce1.chunk.js": "/TextWare/static/js/787.d3befce1.chunk.js",
+    "index.html": "/TextWare/index.html",
+    "main.073c9b0a.css.map": "/TextWare/static/css/main.073c9b0a.css.map",
+    "main.883d7bb8.js.map": "/TextWare/static/js/main.883d7bb8.js.map",
+    "787.d3befce1.chunk.js.map": "/TextWare/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.883d7bb8.js"
+  ]
+}
